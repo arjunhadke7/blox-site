@@ -1,0 +1,19 @@
+.wp-block-create-block-items-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @for $i from 1 through 6 {
+        &.has-#{$i}-columns {
+            > .wp-block-create-block-item-single {
+                width: calc(100% / #{$i});
+                @media screen and (min-width: 768px) and (max-width: 1023px) {
+                    width: calc(100% / 2);
+                }
+                @media screen and (max-width: 767px) {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

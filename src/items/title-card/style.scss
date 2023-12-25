@@ -1,0 +1,18 @@
+.wp-block-create-block-items-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @for $i from 1 through 6 {
+        &.has-#{$i}-columns {
+            >.wp-block-create-block-title-card {
+                @media screen and (min-width: 768px) {
+                    width: calc(100% / 2 - 5%);
+                }
+                @media screen and (max-width: 767px) {
+                    width: 90%;
+                }
+            }
+        }
+    }
+}

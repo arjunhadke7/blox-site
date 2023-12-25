@@ -1,0 +1,43 @@
+.wp-block-create-block-features {
+	display: block;
+	margin: 40px 0;
+
+	.block-editor-inner-blocks {
+		>.block-editor-block-list__layout {
+			display: grid;
+			gap: 1rem;
+
+			[data-type="create-block/feature-grid-item"] {
+				margin: 0;
+
+				// Loop to generate col-span styles
+				// @for $i from 1 through 8 {
+				// 	&.wb-col-span-#{$i} {
+				// 		grid-column: span $i / span $i;
+				// 	}
+				// }
+
+				// @for $i from 1 through 8 {
+				// 	&.wb-row-span-#{$i} {
+				// 		grid-row: span $i / span $i;
+				// 	}
+				// }
+			}
+
+		}
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.wp-block-create-block-features {
+		display: block;
+		margin: 40px 0;
+
+		.block-editor-inner-blocks {
+			>.block-editor-block-list__layout {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
