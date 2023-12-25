@@ -11,8 +11,8 @@ node_modules/
 src/
 package.json
 package-lock.json
-postcss.config.json
-tailwind.config.json
+postcss.config.js
+tailwind.config.js
 
 
 # Optional npm cache directory
