@@ -1,1 +1,70 @@
-.wp-block-create-block-items-block{display:flex;justify-content:center;flex-wrap:wrap}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-1-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-1-columns>.wp-block-create-block-title-card{width:90%}}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-2-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-2-columns>.wp-block-create-block-title-card{width:90%}}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-3-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-3-columns>.wp-block-create-block-title-card{width:90%}}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-4-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-4-columns>.wp-block-create-block-title-card{width:90%}}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-5-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-5-columns>.wp-block-create-block-title-card{width:90%}}@media screen and (min-width: 768px){.wp-block-create-block-items-block.has-6-columns>.wp-block-create-block-title-card{width:45%}}@media screen and (max-width: 767px){.wp-block-create-block-items-block.has-6-columns>.wp-block-create-block-title-card{width:90%}}
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/items/title-card/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-create-block-items-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-1-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-1-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-2-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-2-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-3-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-3-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-4-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-4-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-5-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-5-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wp-block-create-block-items-block.has-6-columns > .wp-block-create-block-title-card {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .wp-block-create-block-items-block.has-6-columns > .wp-block-create-block-title-card {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/
