@@ -41,5 +41,7 @@ function blox_site_blox_site_block_init() {
 	register_block_type( __DIR__ . '/build/items' );
 	register_block_type( __DIR__ . '/build/items/item-single' );
 	register_block_type( __DIR__ . '/build/items/title-card' );
+	// Buttons package
+	
 }
 add_action( 'init', 'blox_site_blox_site_block_init' );
